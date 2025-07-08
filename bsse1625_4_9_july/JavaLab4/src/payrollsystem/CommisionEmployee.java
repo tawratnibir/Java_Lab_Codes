@@ -1,0 +1,24 @@
+package payrollsystem;
+
+public class CommisionEmployee extends Employee{
+    private final double grossSales;
+    private final double commissionRate;
+    public CommisionEmployee() {
+        super();
+        this.grossSales = 0;
+        this.commissionRate = 0;
+    }
+    public CommisionEmployee(String firstName, String lastName, String ssn, double grossSales, double commissionRate) {
+        super(firstName, lastName, ssn);
+        this.grossSales = grossSales;
+        this.commissionRate = commissionRate;
+    }
+    @Override
+    public double earnings(){
+        return this.grossSales * this.commissionRate / 100;
+    }
+    @Override
+    public String toString() {
+        return ("First name: " + super.getFirstName() + "\nLast name: " + super.getLastName() + "\nSocial Security Number: " + super.getssn() + "\nType: Commission\n" + "Salary: " + this.earnings() + "\n");
+    }
+}
