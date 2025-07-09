@@ -31,9 +31,7 @@ public class HourlyEmployee extends Employee{
     }
     @Override
     public String toString() {
-        return ("First name: " + super.getFirstName() + "\nLast name: " + super.getLastName() +
-                "\nSocial Security Number: " + super.getssn() + "\nType: Hourly\n" +
-                "Hours Worked: " + getHoursWorked() + "\nHourly wage: "+ getHourlySalary() +
-                "\nSalary: " + this.earnings() + "\n");
+        return String.format("%s%nType: Hourly Employee%nHourly Wage: $%.2f%nHours Worked: %.2f",
+                super.toString(), getHourlySalary(), getHoursWorked());
     }
 }
