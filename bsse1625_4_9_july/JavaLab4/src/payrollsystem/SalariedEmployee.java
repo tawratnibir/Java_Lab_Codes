@@ -10,6 +10,10 @@ public class SalariedEmployee extends Employee{
         super(firstName, lastName, socialSecurityNumber);
         this.weeklySalary = weeklySalary;
     }
+    protected double getWeeklySalary() {
+        return this.weeklySalary;
+    }
+    //no setters used as fields kept private final for risk-free and unwanted data manipulations
     @Override
     public double earnings(){
         return this.weeklySalary;

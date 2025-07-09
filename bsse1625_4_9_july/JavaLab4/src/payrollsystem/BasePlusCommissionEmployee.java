@@ -16,6 +16,7 @@ public class BasePlusCommissionEmployee extends CommisionEmployee{
     protected void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
+    //setter was used for definite purpose, manipulating field from main function by increasing base salary to 110%
     @Override
     public double earnings(){
         return this.getBaseSalary() + super.earnings();

@@ -17,6 +17,7 @@ public abstract class Employee {
     protected String getFirstName() {return this.firstName;}
     protected String getLastName() {return this.lastName;}
     protected String getssn() {return this.ssn;}
+    //no setters used as fields kept private final for risk-free data manipulations
     public abstract double earnings();
 
     public String toString() {

@@ -13,6 +13,15 @@ public class CommisionEmployee extends Employee{
         this.grossSales = grossSales;
         this.commissionRate = commissionRate;
     }
+
+    protected double getGrossSales() {
+        return this.grossSales;
+    }
+
+    protected double getCommissionRate() {
+        return this.commissionRate;
+    }
+    //no setters used as fields kept private final for risk-free data manipulations
     @Override
     public double earnings(){
         return this.grossSales * this.commissionRate / 100;

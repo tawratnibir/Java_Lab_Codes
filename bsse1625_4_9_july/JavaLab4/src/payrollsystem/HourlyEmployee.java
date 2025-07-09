@@ -13,6 +13,13 @@ public class HourlyEmployee extends Employee{
         this.hourlySalary = hourlySalary;
         this.hoursWorked = hoursWorked;
     }
+    protected double getHourlySalary() {
+        return this.hourlySalary;
+    }
+    protected double getHoursWorked() {
+        return this.hoursWorked;
+    }
+    //no setters used as fields kept private final for risk-free data manipulations
     @Override
     public double earnings() {
         if(this.hoursWorked > 40) {
