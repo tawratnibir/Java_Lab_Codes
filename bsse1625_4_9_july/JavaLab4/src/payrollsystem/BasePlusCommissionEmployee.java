@@ -23,8 +23,12 @@ public class BasePlusCommissionEmployee extends CommisionEmployee{
     }
     @Override
     public String toString() {
-        return String.format("%s%nType: Base Plus Commission Employee%nGross Sales: $%.2f%nCommission Rate: %.2f%%%nBase Salary: $%.2f",
-                super.toString(), getGrossSales(), getCommissionRate() * 100, getBaseSalary());
+        return String.format(
+                "Employee: %s %s%nssn: %s%nType: Base Plus Commission Employee%nGross Sales: $%.2f%nCommission Rate: %.2f%%%nBase Salary: $%.2f%nEarnings: $%.2f",
+                getFirstName(), getLastName(), getssn(), getGrossSales(), getCommissionRate() * 100, getBaseSalary(), earnings()
+        );
     }
+
+
 
 }
