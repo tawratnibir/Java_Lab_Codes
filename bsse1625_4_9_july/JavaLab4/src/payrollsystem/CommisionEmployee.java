@@ -24,7 +24,7 @@ public class CommisionEmployee extends Employee{
     //no setters used as fields kept private final for risk-free data manipulations
     @Override
     public double earnings(){
-        return this.grossSales * this.commissionRate / 100;
+        return this.grossSales * this.commissionRate;
     }
     @Override
     public String toString() {
