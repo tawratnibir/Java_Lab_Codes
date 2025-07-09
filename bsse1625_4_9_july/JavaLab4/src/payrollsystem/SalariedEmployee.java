@@ -20,8 +20,7 @@ public class SalariedEmployee extends Employee{
     }
     @Override
     public String toString() {
-        return ("First name: " + super.getFirstName() + "\nLast name: " + super.getLastName() + "\nSocial Security Number: " + super.getssn() +
-                "\nType: Salaried\n" + "Weekly Salary: " + getWeeklySalary() +
-                "Salary: " + this.earnings() + "\n");
+        return String.format("%s%nType: Salaried Employee%nWeekly Salary: $%.2f",
+                super.toString(), weeklySalary);
     }
 }
