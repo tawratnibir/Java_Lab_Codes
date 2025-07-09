@@ -21,6 +21,6 @@ public abstract class Employee {
     public abstract double earnings();
 
     public String toString() {
-        return ("First name: " + firstName + "\nLast name: " + lastName + "\nSocial Security Number: " + getssn() + "\n");
+        return ("First name: " + getFirstName() + "\nLast name: " + getLastName() + "\nSocial Security Number: " + getssn() + "\n");
     }
 }
