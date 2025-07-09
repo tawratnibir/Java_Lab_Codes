@@ -30,7 +30,7 @@ public class CommisionEmployee extends Employee{
     public String toString() {
         return ("First name: " + super.getFirstName() + "\nLast name: " + super.getLastName() + "\nSocial Security Number: " +
                 super.getssn() + "\nType: Commission\n" +
-                "\nGross Sales: " + getGrossSales() +
+                "Gross Sales: " + getGrossSales() +
                 "\nCommission Rate: " + getCommissionRate() +
                 "\nSalary: " + this.earnings() + "\n");
     }

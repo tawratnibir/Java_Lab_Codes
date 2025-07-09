@@ -20,7 +20,9 @@ public abstract class Employee {
     //no setters used as fields kept private final for risk-free data manipulations
     public abstract double earnings();
 
+    @Override
     public String toString() {
-        return ("First name: " + getFirstName() + "\nLast name: " + getLastName() + "\nSocial Security Number: " + getssn() + "\n");
+        return String.format("Employee: %s %s%nssn: %s",
+                getFirstName(), getLastName(), getssn());
     }
 }

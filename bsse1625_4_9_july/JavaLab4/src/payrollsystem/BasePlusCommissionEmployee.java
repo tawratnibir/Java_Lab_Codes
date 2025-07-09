@@ -25,7 +25,7 @@ public class BasePlusCommissionEmployee extends CommisionEmployee{
     public String toString() {
         return ("First name: " + super.getFirstName() + "\nLast name: " + super.getLastName() + "\nSocial Security Number: " +
                 super.getssn() + "\nType: Commission\n" +
-                "\nBase Salary: " +getBaseSalary() +
+                "Base Salary: " +getBaseSalary() +
                 "\nGross Sales: " + getGrossSales() +
                 "\nCommission Rate: " + getCommissionRate() +
                 "\nSalary: " + this.earnings() + "\n");
