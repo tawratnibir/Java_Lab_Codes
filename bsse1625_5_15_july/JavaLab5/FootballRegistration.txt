@@ -51,3 +51,14 @@ Photo File: D:\2_Eng.srt
 Position: GK
 Experience: a
 
+------ NEW SUBMISSION ------
+Name: Md. Tawrat Hossen Nibir
+Phone: 01978815313
+Email: bsse1625@iit.du.ac.bd
+Gender: Male
+Date of Birth: 9-Jun-2005
+Degree: BSSE
+Photo File: C:\Users\Tawrat Nibir\Desktop\Ghibli\20250405_2359_Ghibli Style Selfie_remix_01jr3hqatkef9acb2yd5sq6gwb.png
+Position: CDM
+Experience: I love to play, watch, learn, live with football!
+
