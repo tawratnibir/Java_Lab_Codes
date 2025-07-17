@@ -9,7 +9,7 @@ public class TextArea extends JTextArea{
         setEnabled(true);
         setEditable(true);
         Color darkGray = new Color(64, 64, 64); // or (50,50,50), (40,40,40) for even darker
-        setBackground(new Color(238, 224, 190));
+        setBackground(Color.LIGHT_GRAY);
         setForeground(darkGray);
         setCaretColor(darkGray);
         setFont(new Font("SansSerifSansSerif", Font.BOLD, 16)); // Or your favorite fun font

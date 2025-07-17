@@ -8,6 +8,6 @@ public class Frames extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         setVisible(true);
-        getContentPane().setBackground(Color.BLACK);
+        getContentPane().setBackground(new  Color(249,249,249));
     }
 }

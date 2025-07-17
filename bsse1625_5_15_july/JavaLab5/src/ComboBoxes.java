@@ -6,9 +6,9 @@ public class ComboBoxes extends JComboBox<String> {
         super(items);
         setBounds(x, y, width, height);
         Color darkGray = new Color(64, 64, 64);
-        setBackground(new Color(238, 224, 190));
-        setForeground(darkGray);
-        setBorder(BorderFactory.createLineBorder(darkGray, 1, false));
+        setBackground(Color.LIGHT_GRAY);
+        setForeground(Color.BLACK);
+        setBorder(BorderFactory.createLineBorder(Color.BLACK, 1, false));
         setFont(new Font("SansSerif", Font.PLAIN, 15));
     }
 }
