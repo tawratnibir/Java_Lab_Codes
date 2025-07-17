@@ -8,11 +8,11 @@ public class TextArea extends JTextArea{
         setBorder(BorderFactory.createLineBorder(Color.GRAY));
         setEnabled(true);
         setEditable(true);
-        Color darkGray = new Color(64, 64, 64); // or (50,50,50), (40,40,40) for even darker
+        Color darkGray = new Color(64, 64, 64);
         setBackground(Color.LIGHT_GRAY);
         setForeground(darkGray);
         setCaretColor(darkGray);
-        setFont(new Font("SansSerifSansSerif", Font.BOLD, 16)); // Or your favorite fun font
+        setFont(new Font("SansSerifSansSerif", Font.BOLD, 16));
         setBorder(BorderFactory.createLineBorder(darkGray, 1, false));
     }
 }
