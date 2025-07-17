@@ -30,8 +30,8 @@ public class Main {
 
             //gender
             Labels gender = new Labels("Gender: ", 30, 170, 100, 25);
-            RadioButtons male = new RadioButtons("Male", 150, 170, 80, 25);
-            RadioButtons female = new RadioButtons("Female", 230, 170, 80, 25);
+            RadioButtons male = new RadioButtons("Male", 150, 170,  100, 25);
+            RadioButtons female = new RadioButtons("Female", 230, 170, 100, 25);
             ButtonAdder genderGroup = new ButtonAdder();
             genderGroup.add(male);
             genderGroup.add(female);
@@ -63,7 +63,7 @@ public class Main {
 
             //file upload
             Labels fileLabel = new Labels("Photo: ", 30, 320, 100, 25);
-            Buttons fileButton = new Buttons("Choose file", 150,320,100,25);
+            Buttons fileButton = new Buttons("Choose file", 150,320,120,25);
             Labels filePathLabel = new Labels(280,320,180,25);
             frame.add(filePathLabel);
             frame.add(fileLabel);
